@@ -4,4 +4,4 @@ JS framework for a 2D, turn-based strategy game inspired by the Heroes of Might 
 Retnur is simply an anagram of "turner" and "return", two other terms that reflect (even if only slightly) the turn-based style of games and reusable framework nature of the project.  Both of those seem generic or associated with other things, so I have gone with the more distinctive retnur.
 
 
-Current status (as of 2/5/2019): evaluating 2D JS game engines (Phaser, Cocos2d, Construct2)
+**Current status** (_as of 2/5/2019_): evaluating 2D JS game engines (Phaser, Cocos2d, Construct2)
