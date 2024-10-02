@@ -16,6 +16,8 @@ The long-term vision is to make the game highly configurable with some sensible 
 
 I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me.
 
+---
 
 **Current status** (_as of 10/2/2024_): Picking things back up; tentatively decided to use Pixi.js for now.
+
 _Update 2/5/2019_: evaluating 2D JS game engines (Phaser, Cocos2d, Construct2)
