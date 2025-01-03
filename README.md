@@ -34,12 +34,17 @@ After phase 7 I will take a step back and evaluate. Some ideas for future consid
 * mini-map
 * more than 2 players
 * grail-like objects and dynamics (including concepts comparable to obelisks, digging, etc.)
+* reconnaissance (e.g., thieves guild, etc.)
+* map editor
+* map generator
+* ability to choose or auto-fit different sized battlefields
 
-The long-term vision is to make the game highly configurable with some sensible presets. If it turns out to be a fun concept, I could see another project starting that would support a set of backend services that could support online multiplayer games.
+The long-term vision is to make the sample game highly configurable with some sensible presets. If it turns out to be a fun concept, I could see another project starting that would support a set of backend services that could support online multiplayer games within a predefined API/framework.
 
-I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me. I expect development to be very slow and sporadic. If you want to contribute or collaborate you are welcome to reach out.
+I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me. I expect development to be very slow, unrefined, and sporadic. I have a separate full-time job and am a parent, so this gets the crumbs or rare indulgence. That said, I would love to see it come to life! If you want to contribute or collaborate you are welcome to reach out.
 
 ### Current status
+* _Update 01/02/2025_: ditched the Docker idea (now using the simple Python HTTP server); simple splash screen
 * _Update 12/4/2024_: learning Pixi.js and putting together a baseline deployment Docker container with Nginx
 * _Update 10/2/2024_: picking things back up; tentatively decided to use Pixi.js
 * _Update 2/5/2019_: evaluating 2D JS game engines (Phaser, Cocos2d, Construct2)
@@ -49,3 +54,4 @@ I haven't worked much with JS or UIs, nor have I ever designed or developed a no
 * HeroWO.js (https://github.com/HeroWO-js)
 * Heroes of Might and Magic III mod: Horn of the Abyss
 * Heroes of Might and Magic III mod: The Succession Wars
+* Heroes of Might and Magic III mod: The Wake of Gods
