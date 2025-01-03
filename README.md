@@ -8,12 +8,13 @@ The name 'retnur' is an anagram of "turner" and "return", reflecting the turn-ba
 2. Map screen that allows you to move your hero around
 3. Interactions with things in the map that modify state within your leader, modifying state of map
 4. Turns
-5. Random AI agent opponent
+5. Random AI agent
 6. Troop stacks
 7. Battle screen and battle sequencing with random AI agent
-9. Victory/defeat conditions and baseline AI
+8. Victory/defeat conditions
+9. Baseline AI
 
-After phase 7 I will take a step back and evaluate. Some ideas for future consideration:
+After phase 9 I will take a step back and evaluate. Some ideas for future consideration:
 
 * auto-battle (known outcome vs. ambiguous prediction, configurable)
 * replay opponent turn
@@ -25,7 +26,7 @@ After phase 7 I will take a step back and evaluate. Some ideas for future consid
 * ability to combine/split leaders or groups
 * hotseat play
 * siege battles
-* diplomacy (alliances, gifting resources, negotiations, honor or social currency, non-aggression pacts, spies & intelligence network, etc.)
+* diplomacy (alliances, gifting resources, negotiations, honor or social currency, non-aggression pacts, spies & intelligence network, etc. (thinking of Knights of Honor and/or Civ somewhat))
 * retreat and surrender capabilities
 * hero development (leveling, skills, magic, weakness/resistance, items, etc.)
 * unit development (upgrading, leveling, weakness/resistance, etc.)
