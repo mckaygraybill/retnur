@@ -1,11 +1,11 @@
 # retnur
 JS framework & sample implementation for a 2D, turn-based strategy game inspired by the Heroes of Might and Magic series. Detailed instructions will be included on how to customize your own game with graphics, configurations, agents (NPCs), etc.
 
-The name 'retnur' is an anagram of "turner" and "return", reflecting the turn-based style of games and reusable framework nature of the project.
+The name _retnur_ is an anagram of "turner" and "return", reflecting the turn-based style of games and reusable framework nature of the project.
 
 ### Planned phases
 1. Screen in which you can choose a leader
-2. Map screen that allows you to move your hero around
+2. Map screen that allows you to move your leader around
 3. Interactions with things in the map that modify state within your leader, modifying state of map
 4. Turns
 5. Random AI agent
@@ -29,7 +29,7 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 * siege battles
 * diplomacy (alliances, gifting resources, negotiations, honor or social currency, non-aggression pacts, spies & intelligence network, etc. (thinking of Knights of Honor and/or Civ somewhat))
 * retreat and surrender capabilities
-* hero development (leveling, skills, magic, weakness/resistance, items, etc.)
+* leader development (leveling, skills, magic, weakness/resistance, items, etc.)
 * unit development (upgrading, leveling, weakness/resistance, etc.)
   * at some point is it possible to promote a unit to become a leader? seems kind of odd but to have a path for it would be fun.
   * what is the difference between a leader and a unit in the game? leaders have names and different roles. leaders can learn more skills. leaders are not stackable. (...)
