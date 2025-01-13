@@ -51,12 +51,12 @@ Will be playing with different types of art to demonstrate various styles, fusio
 
 I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me. I expect development to be very slow, unrefined, and sporadic. I have a separate full-time job and am a parent, so this gets the crumbs or rare indulgence. That said, I would love to see it come to life! If you want to contribute or collaborate you are welcome to reach out.
 
-###Known Issues
+### Known Issues
 
 * Does not automatically resize with the window
 * What does refreshing the page do to game state? May need to auto-save pretty frequently...
 
-###Miscellaneous thoughts
+### Miscellaneous thoughts
 
 * A traditional fantasy setting may be a go-to default, but there are a lot of different ways you could go with this. Colonial era, antebellum, early 20th century, space, a dodgeball game, ... Magic is optional.
   * You don't even need to "fight", as battles could be conflicts or competitions of other sorts. You could have some sort of, I don't know, courtroom or ballroom event.
