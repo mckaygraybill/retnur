@@ -22,7 +22,7 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 * path suggestion, including across turns
 * fog of war
 * NPC baseline profiles (difficulty, predisposition, etc.)
-** could see this turning into a separate library for easily composing custom agents
+  * could see this turning into a separate library for easily composing custom agents
 * multiple leaders
 * ability to combine/split leaders or groups
 * hotseat play
@@ -31,8 +31,8 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 * retreat and surrender capabilities
 * hero development (leveling, skills, magic, weakness/resistance, items, etc.)
 * unit development (upgrading, leveling, weakness/resistance, etc.)
-** at some point is it possible to promote a unit to become a leader? seems kind of odd but to have a path for it would be fun.
-** what is the difference between a leader and a unit in the game? leaders have names and different roles. leaders can learn more skills. leaders are not stackable. (...)
+  * at some point is it possible to promote a unit to become a leader? seems kind of odd but to have a path for it would be fun.
+  * what is the difference between a leader and a unit in the game? leaders have names and different roles. leaders can learn more skills. leaders are not stackable. (...)
 * town development (buildings, resources, specialization (fort vs. commerce center, etc.), etc.)
 * map development (terrain, buildings, events (cyclical, random, triggered, etc.), creature stacks, etc.)
 * mini-map
@@ -43,7 +43,7 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 * map generator
 * ability to choose or auto-fit different sized battlefields
 * different roles or specializations for leaders (government, construction, statesmanship, diplomacy, trade, business/economy, scouting, defense, war, etc.)
-** how many leaders allowed before it becomes too much? maybe limits on different types? (some require more attention than others)
+ * how many leaders allowed before it becomes too much? maybe limits on different types? (some require more attention than others)
 
 The long-term vision is to make the sample game highly configurable with some sensible presets. If it turns out to be a fun concept, I could see another project starting that would support a set of backend services that could support online multiplayer games within a predefined API/framework.
 
@@ -57,7 +57,7 @@ Will be playing with different types of art to demonstrate various styles, fusio
 Miscellaneous thoughts
 
 * A traditional fantasy setting may be a go-to default, but there are a lot of different ways you could go with this. Colonial era, antebellum, early 20th century, space, a dodgeball game, ... Magic is optional.
-** You don't even need to "fight", as battles could be conflicts or competitions of other sorts. You could have some sort of, I don't know, courtroom or ballroom event.
+  * You don't even need to "fight", as battles could be conflicts or competitions of other sorts. You could have some sort of, I don't know, courtroom or ballroom event.
 * I'm going to need to split out the README into separate parts before long, as this thing has been taken over by brainstorming, updates, etc.
 * Is there some more adventure-game, puzzle-ish sort of style that could be incorporated somewhere?
 * Time could be made flexible to fit with desired theme as well (instead of days/weeks/months for turns it might be smaller or larger units or something entirely different)
