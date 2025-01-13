@@ -47,22 +47,23 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 
 The long-term vision is to make the sample game highly configurable with some sensible presets. If it turns out to be a fun concept, I could see another project starting that would support a set of backend services that could support online multiplayer games within a predefined API/framework.
 
-Known Issues...
+Will be playing with different types of art to demonstrate various styles, fusions, uses, etc. and to spark new or different ideas.
+
+I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me. I expect development to be very slow, unrefined, and sporadic. I have a separate full-time job and am a parent, so this gets the crumbs or rare indulgence. That said, I would love to see it come to life! If you want to contribute or collaborate you are welcome to reach out.
+
+###Known Issues
 
 * Does not automatically resize with the window
 * What does refreshing the page do to game state? May need to auto-save pretty frequently...
 
-Will be playing with different types of art to demonstrate various styles, fusions, uses, etc. and to spark new or different ideas.
-
-Miscellaneous thoughts
+###Miscellaneous thoughts
 
 * A traditional fantasy setting may be a go-to default, but there are a lot of different ways you could go with this. Colonial era, antebellum, early 20th century, space, a dodgeball game, ... Magic is optional.
   * You don't even need to "fight", as battles could be conflicts or competitions of other sorts. You could have some sort of, I don't know, courtroom or ballroom event.
 * I'm going to need to split out the README into separate parts before long, as this thing has been taken over by brainstorming, updates, etc.
 * Is there some more adventure-game, puzzle-ish sort of style that could be incorporated somewhere?
 * Time could be made flexible to fit with desired theme as well (instead of days/weeks/months for turns it might be smaller or larger units or something entirely different)
-
-I haven't worked much with JS or UIs, nor have I ever designed or developed a non-trivial game from scratch, so this will be a learning journey for me. I expect development to be very slow, unrefined, and sporadic. I have a separate full-time job and am a parent, so this gets the crumbs or rare indulgence. That said, I would love to see it come to life! If you want to contribute or collaborate you are welcome to reach out.
+* If this expands to become overwhelmingly configurable, some sort of model may be in order for managing complexity and scope. Organization, documenation, and probably some sort of opt-in mechanism like plugins will be needed to keep barrier to entry low while enabling extensibility and broader potential.
 
 ### Current status
 * _Update 01/10/2025_: played with Text some more; searched for some copyright-free images to use; more ideation and readme updates
