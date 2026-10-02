@@ -1,20 +1,29 @@
 # retnur
 JS framework & sample implementation for a 2D, turn-based strategy game inspired by the Heroes of Might and Magic series. Detailed instructions will be included on how to customize your own game with graphics, configurations, agents (NPCs), etc.
 
-The name _retnur_ is an anagram of "turner" and "return", reflecting the turn-based style of games and reusable framework nature of the project.
+The name _retnur_ is an anagram of "turner" and "return", reflecting the turn-based style of games and reusable framework nature of the project. Code-name for now, we'll see if it sticks.
 
-### Planned phases
-1. Screen in which you can choose a leader
-2. Map screen that allows you to move your leader around
-3. Interactions with things in the map that modify state within your leader, modifying state of map
-4. Turns
-5. Random AI agent
-6. Troop stacks
-7. Battle screen and battle sequencing with random AI agent
-8. Victory/defeat conditions
-9. Baseline AI
+### Planned phases and milestones for minimal vertical slice
+1. World Map
+    1. Screen in which you can choose a leader
+    1. Map screen that allows you to move your leader around
+    1. Interactions with things in the map that modify state within your leader, modifying state of map
+    1. Turns (with two human-controlled players)
+    1. Random AI agent
+    1. Troop stacks
+    1. Victory condition
+2. Battle
+    1. Battle screen
+    1. Battle sequencing with 2 human players
+    1. Random AI agent
+3. Town
+    1. Town screen
+    1. Building buildings
+4. Baseline AI Defaults
+    1. Map
+    1. Battle
 
-After phase 9 I will take a step back and evaluate. Some ideas for future consideration:
+After phase 4 I will take a step back and evaluate. Some ideas for future consideration:
 
 * auto-battle (known outcome vs. ambiguous prediction, configurable)
 * replay opponent turn
@@ -44,6 +53,8 @@ After phase 9 I will take a step back and evaluate. Some ideas for future consid
 * ability to choose or auto-fit different sized battlefields
 * different roles or specializations for leaders (government, construction, statesmanship, diplomacy, trade, business/economy, scouting, defense, war, etc.)
  * how many leaders allowed before it becomes too much? maybe limits on different types? (some require more attention than others)
+* wizard for game customization/configuration
+* "kingdom power" analogue with Knights of Honor
 
 The long-term vision is to make the sample game highly configurable with some sensible presets. If it turns out to be a fun concept, I could see another project starting that would support a set of backend services that could support online multiplayer games within a predefined API/framework.
 
@@ -66,6 +77,7 @@ I haven't worked much with JS or UIs, nor have I ever designed or developed a no
 * If this expands to become overwhelmingly configurable, some sort of model may be in order for managing complexity and scope. Organization, documenation, and probably some sort of opt-in mechanism like plugins will be needed to keep barrier to entry low while enabling extensibility and broader potential.
 
 ### Current status
+* _Update 10/01/2026_: updating readme with ideas and breakout (planning to use AI only in consultation and generating targeted code, not for broad development)
 * _Update 01/10/2025_: played with Text some more; searched for some copyright-free images to use; more ideation and readme updates
 * _Update 01/02/2025_: ditched the Docker idea (now using `python -m http.server 8000` in project dir (python 3)); simple splash screen
 * _Update 12/4/2024_: learning Pixi.js and putting together a baseline deployment Docker container with Nginx
