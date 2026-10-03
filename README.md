@@ -27,7 +27,7 @@ After phase 4 I will take a step back and evaluate. Some ideas for future consid
 
 * auto-battle (known outcome vs. ambiguous prediction, configurable)
 * replay opponent turn
-* saving game state (including autosave, potentially configurable)
+* saving and loading game state (including autosave, potentially configurable)
 * path suggestion, including across turns
 * fog of war
 * NPC baseline profiles (difficulty, predisposition, etc.)
